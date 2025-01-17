@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Building Tables</title>
+    </head>
+    <body>
+        <table>
+            <caption>Comparison of Monthly Exenses in Three Cities</caption>
+            <style>
+                table, tr, td, th {border:1px solid black}
+            </style>
+            <thead>
+                <th>City</th>
+                <th>Rent($)</th>
+                <th>Transportation($)</th>
+                <th>Total($)</th>
+            </thead>
+            <tr>
+                <td><strong>Solana</strong></td>
+                <td>1200</td>
+                <td>150</td>
+                <td>1350</td>
+            </tr>
+            <tr>
+                <td><strong>Ciudad Estrella</strong></td>
+                <td>1000</td>
+                <td>120</td>
+                <td>1120</td>
+            </tr>
+            <tr>
+                <td><strong>Rio Verde</strong></td>
+                <td>1400</td>
+                <td>200</td>
+                <td>1600</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>Total Average per City</strong></td>
+                <td>1356</td>
+            </tr>
+        </table>
+        <ul style="list-style-type: circle;">
+            <li><i>Rio Verde is the most expensive city.</i></li>
+            <li><i>Transportation is the cheapest in Ciuda Estrella.</i></li>
+            <li><i>Solana's total falls in the average.</i></li>
+        </ul>
+    </body>
+</html>
